@@ -1,0 +1,45 @@
+{
+	"name": "babylonjs-starter-code-ts",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack serve --open --config webpack.dev.js",
+		"build": "webpack --config webpack.prod.js",
+		"deploy": "npm run build&&firebase deploy"
+	},
+	"author": "Voxelcubes Studios",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.17.10",
+		"@babel/preset-env": "^7.17.10",
+		"@types/webpack-env": "^1.18.0",
+		"babel-loader": "^8.2.5",
+		"css-loader": "^6.7.1",
+		"cssnano": "^5.1.7",
+		"file-loader": "^6.2.0",
+		"gulp": "^4.0.2",
+		"gulp-merge-json": "^2.1.2",
+		"html-loader": "^3.1.0",
+		"html-webpack-plugin": "^5.5.0",
+		"node-sass": "^7.0.1",
+		"prettier": "^2.6.2",
+		"request": "^2.88.2",
+		"sass": "^1.51.0",
+		"sass-loader": "^12.6.0",
+		"style-loader": "^3.3.1",
+		"ts-loader": "^9.3.0",
+		"typescript": "^4.6.4",
+		"url-loader": "^4.1.1",
+		"webpack": "^5.72.1",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.9.0",
+		"webpack-merge": "^5.8.0"
+	},
+	"dependencies": {
+		"@babylonjs/core": "^5.48.0",
+		"@babylonjs/loaders": "^5.48.0",
+		"@babylonjs/materials": "^5.49.0",
+		"oimo": "^1.0.9"
+	}
+}

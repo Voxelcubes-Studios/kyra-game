@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"sourceMap": true,
+		"noImplicitAny": false,
+		"target": "es2017",
+		"module": "es2020",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"preserveConstEnums": true
+	}
+}
